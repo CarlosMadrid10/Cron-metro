@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/style.css">
+    <title>Cronômetro</title>
+</head>
+<body>
+    <form class="form-main" name="form-main">
+        <h1>Cronometro</h1>
+        <div class="visor-div">
+            <span class="visor" id="horas">00</span>
+            : <span class="visor" id="minutos">00</span>
+            : <span class="visor" id="segundos">00</span>
+            : <span class="visor" id="milissegundos">000</span>
+        </div>
+        <div class="botoeiras">
+            <button type="button" onclick="iniciar()">Iniciar</button>
+            <button type="button" onclick="pausar()">Pausar</button>
+            <button type="button" onclick="resetar()">Resetar</button>
+        </div>
+    </form>
+    <script src="../Scripts/script.js"></script>
+</body>
+</html>
